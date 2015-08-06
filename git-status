@@ -1,0 +1,21 @@
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   Gemfile
+#	modified:   Gemfile.jruby-1.9.lock
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	vendor/bundle/jruby/1.9/cache/
+#	vendor/bundle/jruby/1.9/gems/logstash-output-webhdfs-0.1.0/
+#	vendor/bundle/jruby/1.9/gems/snappy-0.0.12-java/
+#	vendor/bundle/jruby/1.9/gems/snappy-jars-1.1.0.1.2-java/
+#	vendor/bundle/jruby/1.9/gems/webhdfs-0.6.0/
+#	vendor/bundle/jruby/1.9/specifications/logstash-output-webhdfs-0.1.0.gemspec
+#	vendor/bundle/jruby/1.9/specifications/snappy-0.0.12-java.gemspec
+#	vendor/bundle/jruby/1.9/specifications/snappy-jars-1.1.0.1.2-java.gemspec
+#	vendor/bundle/jruby/1.9/specifications/webhdfs-0.6.0.gemspec
+no changes added to commit (use "git add" and/or "git commit -a")

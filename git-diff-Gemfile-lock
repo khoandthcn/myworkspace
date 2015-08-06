@@ -1,0 +1,41 @@
+diff --git a/Gemfile.jruby-1.9.lock b/Gemfile.jruby-1.9.lock
+index e841c1d..734d3e8 100644
+--- a/Gemfile.jruby-1.9.lock
++++ b/Gemfile.jruby-1.9.lock
+@@ -468,6 +468,10 @@ GEM
+     logstash-output-udp (1.0.0)
+       logstash-codec-json
+       logstash-core (>= 1.4.0, < 2.0.0)
++    logstash-output-webhdfs (0.1.0)
++      logstash-core (>= 1.4.0, < 2.0.0)
++      snappy
++      webhdfs
+     logstash-output-xmpp (1.0.0)
+       logstash-core (>= 1.4.0, < 2.0.0)
+       xmpp4r (= 0.5)
+@@ -543,6 +547,9 @@ GEM
+       simplecov-html (~> 0.10.0)
+     simplecov-html (0.10.0)
+     slop (3.6.0)
++    snappy (0.0.12-java)
++      snappy-jars (~> 1.1.0)
++    snappy-jars (1.1.0.1.2-java)
+     snmp (1.2.0)
+     spoon (0.0.4)
+       ffi
+@@ -571,6 +578,7 @@ GEM
+       thread_safe (~> 0.1)
+     unf (0.1.4-java)
+     user_agent_parser (2.2.0)
++    webhdfs (0.6.0)
+     xml-simple (1.1.5)
+     xmpp4r (0.5)
+ 
+@@ -688,6 +696,7 @@ DEPENDENCIES
+   logstash-output-stdout
+   logstash-output-tcp
+   logstash-output-udp
++  logstash-output-webhdfs
+   logstash-output-xmpp
+   logstash-output-zeromq
+   octokit (= 3.8.0)

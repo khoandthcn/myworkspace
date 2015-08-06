@@ -1,0 +1,9 @@
+diff --git a/Gemfile b/Gemfile
+index 567f43c..4ed65bc 100644
+--- a/Gemfile
++++ b/Gemfile
+@@ -119,3 +119,4 @@ gem "logstash-output-tcp"
+ gem "logstash-output-udp"
+ gem "logstash-output-kafka"
+ gem "flores", "~> 0.0.4", :group => :development
++gem "logstash-output-webhdfs"
