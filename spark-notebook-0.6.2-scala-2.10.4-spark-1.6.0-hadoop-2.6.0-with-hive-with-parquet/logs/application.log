@@ -1,0 +1,438 @@
+2016-01-24 00:45:31,522 - [INFO] - from play in main 
+Application started (Prod)
+
+2016-01-24 00:45:31,660 - [INFO] - from play in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2016-01-24 00:45:49,789 - [DEBUG] - from application in New I/O worker #1 
+Notebooks directory in the config is referring ./notebooks. Does it exist? true
+
+2016-01-24 00:45:49,896 - [INFO] - from application in New I/O worker #1 
+Notebooks dir is ./notebooks [at /Users/khoand/Downloads/spark-notebook-0.6.2-scala-2.10.4-spark-1.6.0-hadoop-2.6.0-with-hive-with-parquet/./notebooks] 
+
+2016-01-24 00:45:49,901 - [INFO] - from application in New I/O worker #1 
+Notebook directory is: /Users/khoand/Downloads/spark-notebook-0.6.2-scala-2.10.4-spark-1.6.0-hadoop-2.6.0-with-hive-with-parquet/notebooks
+
+2016-01-24 00:45:49,904 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Profiles file is : ./conf/profiles
+
+2016-01-24 00:45:49,910 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-3 
+Clusters file is : ./conf/clusters
+
+2016-01-24 00:45:50,290 - [DEBUG] - from application in play-akka.actor.default-dispatcher-4 
+DASH → /
+
+2016-01-24 00:47:00,825 - [INFO] - from application in play-akka.actor.default-dispatcher-7 
+Creating notebook at /
+
+2016-01-24 00:47:00,921 - [INFO] - from application in play-akka.actor.default-dispatcher-7 
+save at path /test.snb
+
+2016-01-24 00:47:00,944 - [INFO] - from application in play-akka.actor.default-dispatcher-7 
+Loading notebook at path /test.snb
+
+2016-01-24 00:47:00,975 - [DEBUG] - from application in play-akka.actor.default-dispatcher-10 
+content: /test.snb
+
+2016-01-24 00:47:00,975 - [DEBUG] - from application in play-akka.actor.default-dispatcher-10 
+getNotebook: name is '/test', path is '/test.snb' and format is 'json'
+
+2016-01-24 00:47:00,975 - [INFO] - from application in play-akka.actor.default-dispatcher-10 
+getNotebook at path /test.snb
+
+2016-01-24 00:47:00,976 - [INFO] - from application in play-akka.actor.default-dispatcher-10 
+Loading notebook at path /test.snb
+
+2016-01-24 00:47:01,007 - [INFO] - from application in play-akka.actor.default-dispatcher-7 
+View notebook 'test.snb', presentation: 'None'
+
+2016-01-24 00:47:02,045 - [DEBUG] - from application in play-akka.actor.default-dispatcher-12 
+content: test.snb
+
+2016-01-24 00:47:02,046 - [DEBUG] - from application in play-akka.actor.default-dispatcher-12 
+getNotebook: name is 'test', path is 'test.snb' and format is 'json'
+
+2016-01-24 00:47:02,046 - [INFO] - from application in play-akka.actor.default-dispatcher-12 
+getNotebook at path test.snb
+
+2016-01-24 00:47:02,046 - [INFO] - from application in play-akka.actor.default-dispatcher-12 
+Loading notebook at path test.snb
+
+2016-01-24 00:47:02,208 - [INFO] - from application in play-akka.actor.default-dispatcher-17 
+Starting kernel/session because nothing for None and Some(test.snb)
+
+2016-01-24 00:47:02,238 - [INFO] - from application in play-akka.actor.default-dispatcher-17 
+Loading notebook at path test.snb
+
+2016-01-24 00:47:02,327 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-14 
+Spawning [/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/bin/java, -Xmx1908932608, -XX:MaxPermSize=1073741824, -server, notebook.kernel.pfork.ChildProcessMain, notebook.kernel.remote.RemoteActorProcess, 51423, info, 6b2cdabf-ec72-45a2-8aa9-567d05ad7ee1, test.snb, kernel, ]
+
+2016-01-24 00:47:02,329 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-14 
+In working directory .
+
+2016-01-24 00:47:02,569 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-15 
+Registering first web-socket (notebook.server.WebSockWrapperImpl@62d0ca37) in service notebook.server.CalcWebSocketService$CalcActor@31cdcd42
+
+2016-01-24 00:47:02,570 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-15 
+Spawning calculator in service notebook.server.CalcWebSocketService$CalcActor@31cdcd42
+
+2016-01-24 00:49:11,950 - [INFO] - from application in play-akka.actor.default-dispatcher-18 
+SAVE → test.snb
+
+2016-01-24 00:49:11,953 - [INFO] - from application in play-akka.actor.default-dispatcher-18 
+save at path test.snb
+
+2016-01-24 00:49:11,960 - [INFO] - from application in play-akka.actor.default-dispatcher-18 
+Loading notebook at path test.snb
+
+2016-01-24 00:51:04,936 - [INFO] - from application in play-akka.actor.default-dispatcher-25 
+SAVE → test.snb
+
+2016-01-24 00:51:04,942 - [INFO] - from application in play-akka.actor.default-dispatcher-25 
+save at path test.snb
+
+2016-01-24 00:51:04,948 - [INFO] - from application in play-akka.actor.default-dispatcher-25 
+Loading notebook at path test.snb
+
+2016-01-24 00:51:14,914 - [INFO] - from application in play-akka.actor.default-dispatcher-25 
+Closing kernel 6b2cdabf-ec72-45a2-8aa9-567d05ad7ee1
+
+2016-01-24 00:51:26,821 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Termination of op calculator
+
+2016-01-24 00:51:26,821 - [ERROR] - from application in NotebookServer-akka.actor.default-dispatcher-4 
+Remote calculator (Actor[akka.tcp://Remote@127.0.0.1:51426/remote/akka.tcp/NotebookServer@127.0.0.1:51403/user/$c/$a#-1703603701]) has been terminated !!!!!
+
+2016-01-24 00:51:26,838 - [INFO] - from application in play-akka.actor.default-dispatcher-25 
+View notebook 'test.snb', presentation: 'None'
+
+2016-01-24 00:51:26,845 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-18 
+Closing websockets for kernel 6b2cdabf-ec72-45a2-8aa9-567d05ad7ee1
+
+2016-01-24 00:51:38,092 - [INFO] - from application in play-akka.actor.default-dispatcher-25 
+Starting kernel/session because nothing for None and Some(test.snb)
+
+2016-01-24 00:51:38,093 - [INFO] - from application in play-akka.actor.default-dispatcher-25 
+Loading notebook at path test.snb
+
+2016-01-24 00:51:38,128 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-16 
+Spawning [/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/bin/java, -Xmx1908932608, -XX:MaxPermSize=1073741824, -server, notebook.kernel.pfork.ChildProcessMain, notebook.kernel.remote.RemoteActorProcess, 51623, info, 231af236-d1c4-478d-b1a8-81c91fe3112c, test.snb, kernel, ]
+
+2016-01-24 00:51:38,129 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-16 
+In working directory .
+
+2016-01-24 00:51:38,145 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-23 
+Registering first web-socket (notebook.server.WebSockWrapperImpl@5233c4c2) in service notebook.server.CalcWebSocketService$CalcActor@5cf420f4
+
+2016-01-24 00:51:38,146 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-23 
+Spawning calculator in service notebook.server.CalcWebSocketService$CalcActor@5cf420f4
+
+2016-01-24 00:52:25,282 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-23 
+Closing websockets for kernel 231af236-d1c4-478d-b1a8-81c91fe3112c
+
+2016-01-24 00:52:25,288 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-23 
+UN-registering web-socket (notebook.server.WebSockWrapperImpl@5233c4c2) in service notebook.server.CalcWebSocketService$CalcActor@5cf420f4 (current count is 1)
+
+2016-01-24 00:52:32,686 - [INFO] - from application in play-akka.actor.default-dispatcher-32 
+Closing kernel 231af236-d1c4-478d-b1a8-81c91fe3112c
+
+2016-01-24 00:52:43,820 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-14 
+Termination of op calculator
+
+2016-01-24 00:52:43,821 - [ERROR] - from application in NotebookServer-akka.actor.default-dispatcher-14 
+Remote calculator (Actor[akka.tcp://Remote@127.0.0.1:51626/remote/akka.tcp/NotebookServer@127.0.0.1:51403/user/$g/$a#306426532]) has been terminated !!!!!
+
+2016-01-24 00:53:34,302 - [INFO] - from application in play-akka.actor.default-dispatcher-35 
+View notebook 'Tachyon Test.snb', presentation: 'None'
+
+2016-01-24 00:53:34,738 - [DEBUG] - from application in play-akka.actor.default-dispatcher-28 
+content: Tachyon Test.snb
+
+2016-01-24 00:53:34,739 - [DEBUG] - from application in play-akka.actor.default-dispatcher-28 
+getNotebook: name is 'Tachyon Test', path is 'Tachyon Test.snb' and format is 'json'
+
+2016-01-24 00:53:34,739 - [INFO] - from application in play-akka.actor.default-dispatcher-28 
+getNotebook at path Tachyon Test.snb
+
+2016-01-24 00:53:34,739 - [INFO] - from application in play-akka.actor.default-dispatcher-28 
+Loading notebook at path Tachyon Test.snb
+
+2016-01-24 00:53:35,589 - [INFO] - from application in play-akka.actor.default-dispatcher-28 
+Starting kernel/session because nothing for None and Some(Tachyon Test.snb)
+
+2016-01-24 00:53:35,589 - [INFO] - from application in play-akka.actor.default-dispatcher-28 
+Loading notebook at path Tachyon Test.snb
+
+2016-01-24 00:53:35,616 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-17 
+Spawning [/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/bin/java, -Xmx1908932608, -XX:MaxPermSize=1073741824, -server, notebook.kernel.pfork.ChildProcessMain, notebook.kernel.remote.RemoteActorProcess, 51669, info, 6d0c80f7-d9f9-46c8-a11b-c8a1631f3ade, "Tachyon Test.snb", kernel, ]
+
+2016-01-24 00:53:35,616 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-17 
+In working directory .
+
+2016-01-24 00:53:35,700 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-26 
+Registering first web-socket (notebook.server.WebSockWrapperImpl@1a52db83) in service notebook.server.CalcWebSocketService$CalcActor@149526b9
+
+2016-01-24 00:53:35,701 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-26 
+Spawning calculator in service notebook.server.CalcWebSocketService$CalcActor@149526b9
+
+2016-01-24 00:53:35,703 - [INFO] - from application in play-akka.actor.default-dispatcher-28 
+View notebook 'Tachyon Test.snb', presentation: 'None'
+
+2016-01-24 00:54:05,353 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-20 
+Termination of op calculator
+
+2016-01-24 00:54:11,784 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-17 
+Termination of op calculator
+
+2016-01-24 00:54:19,384 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-17 
+Termination of op calculator
+
+2016-01-24 00:54:24,219 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-26 
+Termination of op calculator
+
+2016-01-24 00:54:34,607 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-26 
+Termination of op calculator
+
+2016-01-24 00:54:40,955 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-17 
+Termination of op calculator
+
+2016-01-24 00:54:43,600 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-17 
+Termination of op calculator
+
+2016-01-24 00:54:49,448 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-26 
+Termination of op calculator
+
+2016-01-24 00:54:55,114 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-26 
+Termination of op calculator
+
+2016-01-24 00:54:57,999 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-20 
+Termination of op calculator
+
+2016-01-24 00:55:08,635 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-25 
+Termination of op calculator
+
+2016-01-24 00:55:11,766 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-25 
+Termination of op calculator
+
+2016-01-24 00:55:11,924 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-20 
+Termination of op calculator
+
+2016-01-24 00:55:12,177 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-17 
+Termination of op calculator
+
+2016-01-24 00:55:12,440 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-20 
+Termination of op calculator
+
+2016-01-24 00:55:13,705 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-17 
+Termination of op calculator
+
+2016-01-24 00:55:14,252 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-17 
+Termination of op calculator
+
+2016-01-24 00:55:14,717 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-17 
+Termination of op calculator
+
+2016-01-24 00:55:15,440 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-20 
+Termination of op calculator
+
+2016-01-24 00:55:15,586 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-17 
+Termination of op calculator
+
+2016-01-24 00:55:15,739 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-20 
+Termination of op calculator
+
+2016-01-24 00:55:15,886 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-20 
+Termination of op calculator
+
+2016-01-24 00:55:16,067 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-25 
+Termination of op calculator
+
+2016-01-24 00:55:16,312 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-20 
+Termination of op calculator
+
+2016-01-24 00:55:16,604 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-25 
+Termination of op calculator
+
+2016-01-24 00:55:21,855 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-25 
+Closing websockets for kernel 6d0c80f7-d9f9-46c8-a11b-c8a1631f3ade
+
+2016-01-24 00:55:21,857 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-25 
+UN-registering web-socket (notebook.server.WebSockWrapperImpl@1a52db83) in service notebook.server.CalcWebSocketService$CalcActor@149526b9 (current count is 1)
+
+2016-01-24 00:55:21,860 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-25 
+Closing observable 6d0c80f7-d9f9-46c8-a11b-c8a1631f3ade
+
+2016-01-24 00:55:27,025 - [INFO] - from application in play-akka.actor.default-dispatcher-39 
+Closing kernel 6d0c80f7-d9f9-46c8-a11b-c8a1631f3ade
+
+2016-01-24 00:55:29,520 - [DEBUG] - from application in play-akka.actor.default-dispatcher-39 
+DASH → machine-learning
+
+2016-01-24 00:55:32,457 - [INFO] - from application in play-akka.actor.default-dispatcher-40 
+View notebook 'machine-learning/Simple ML in Spark.snb', presentation: 'None'
+
+2016-01-24 00:55:32,768 - [DEBUG] - from application in play-akka.actor.default-dispatcher-37 
+content: machine-learning/Simple ML in Spark.snb
+
+2016-01-24 00:55:32,769 - [DEBUG] - from application in play-akka.actor.default-dispatcher-37 
+getNotebook: name is 'machine-learning/Simple ML in Spark', path is 'machine-learning/Simple ML in Spark.snb' and format is 'json'
+
+2016-01-24 00:55:32,769 - [INFO] - from application in play-akka.actor.default-dispatcher-37 
+getNotebook at path machine-learning/Simple ML in Spark.snb
+
+2016-01-24 00:55:32,769 - [INFO] - from application in play-akka.actor.default-dispatcher-37 
+Loading notebook at path machine-learning/Simple ML in Spark.snb
+
+2016-01-24 00:55:34,097 - [INFO] - from application in play-akka.actor.default-dispatcher-38 
+Starting kernel/session because nothing for None and Some(machine-learning/Simple ML in Spark.snb)
+
+2016-01-24 00:55:34,097 - [INFO] - from application in play-akka.actor.default-dispatcher-38 
+Loading notebook at path machine-learning/Simple ML in Spark.snb
+
+2016-01-24 00:55:34,117 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-25 
+Spawning [/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/bin/java, -Xmx1908932608, -XX:MaxPermSize=1073741824, -server, notebook.kernel.pfork.ChildProcessMain, notebook.kernel.remote.RemoteActorProcess, 51689, info, 4dab9486-78c5-4e4d-9dbb-2e30474123e3, "machine-learning/Simple ML in Spark.snb", kernel, ]
+
+2016-01-24 00:55:34,117 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-25 
+In working directory .
+
+2016-01-24 00:55:34,157 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-26 
+Registering first web-socket (notebook.server.WebSockWrapperImpl@3ffc67c9) in service notebook.server.CalcWebSocketService$CalcActor@62e631b5
+
+2016-01-24 00:55:34,157 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-26 
+Spawning calculator in service notebook.server.CalcWebSocketService$CalcActor@62e631b5
+
+2016-01-24 00:55:34,238 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-24 
+Closing websockets for kernel 4dab9486-78c5-4e4d-9dbb-2e30474123e3
+
+2016-01-24 00:55:34,244 - [INFO] - from application in play-akka.actor.default-dispatcher-38 
+View notebook 'machine-learning/Simple ML in Spark.snb', presentation: 'None'
+
+2016-01-24 00:55:35,422 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-26 
+UN-registering web-socket (notebook.server.WebSockWrapperImpl@3ffc67c9) in service notebook.server.CalcWebSocketService$CalcActor@62e631b5 (current count is 1)
+
+2016-01-24 00:55:38,817 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-17 
+Termination of op calculator
+
+2016-01-24 00:55:38,817 - [ERROR] - from application in NotebookServer-akka.actor.default-dispatcher-17 
+Remote calculator (Actor[akka.tcp://Remote@127.0.0.1:51672/remote/akka.tcp/NotebookServer@127.0.0.1:51403/user/$k/$a#-959142977]) has been terminated !!!!!
+
+2016-01-24 00:55:48,402 - [INFO] - from application in play-akka.actor.default-dispatcher-38 
+Closing kernel 4dab9486-78c5-4e4d-9dbb-2e30474123e3
+
+2016-01-24 00:55:51,531 - [DEBUG] - from application in play-akka.actor.default-dispatcher-38 
+DASH → /
+
+2016-01-24 00:55:54,787 - [DEBUG] - from application in play-akka.actor.default-dispatcher-35 
+DASH → graphx
+
+2016-01-24 00:55:56,218 - [INFO] - from application in play-akka.actor.default-dispatcher-37 
+View notebook 'graphx/GraphX.snb', presentation: 'None'
+
+2016-01-24 00:55:56,534 - [DEBUG] - from application in play-akka.actor.default-dispatcher-37 
+content: graphx/GraphX.snb
+
+2016-01-24 00:55:56,535 - [DEBUG] - from application in play-akka.actor.default-dispatcher-37 
+getNotebook: name is 'graphx/GraphX', path is 'graphx/GraphX.snb' and format is 'json'
+
+2016-01-24 00:55:56,535 - [INFO] - from application in play-akka.actor.default-dispatcher-37 
+getNotebook at path graphx/GraphX.snb
+
+2016-01-24 00:55:56,535 - [INFO] - from application in play-akka.actor.default-dispatcher-37 
+Loading notebook at path graphx/GraphX.snb
+
+2016-01-24 00:55:57,561 - [INFO] - from application in play-akka.actor.default-dispatcher-39 
+Starting kernel/session because nothing for None and Some(graphx/GraphX.snb)
+
+2016-01-24 00:55:57,561 - [INFO] - from application in play-akka.actor.default-dispatcher-39 
+Loading notebook at path graphx/GraphX.snb
+
+2016-01-24 00:55:57,573 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-17 
+Spawning [/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/bin/java, -Xmx1908932608, -XX:MaxPermSize=1073741824, -server, notebook.kernel.pfork.ChildProcessMain, notebook.kernel.remote.RemoteActorProcess, 51699, info, 40ebbaf5-e00b-48d1-9bc8-2d19a7ee9777, graphx/GraphX.snb, kernel, ]
+
+2016-01-24 00:55:57,573 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-17 
+In working directory .
+
+2016-01-24 00:55:57,781 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-19 
+Registering first web-socket (notebook.server.WebSockWrapperImpl@49dc2ebb) in service notebook.server.CalcWebSocketService$CalcActor@471bc9f0
+
+2016-01-24 00:55:57,782 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-19 
+Spawning calculator in service notebook.server.CalcWebSocketService$CalcActor@471bc9f0
+
+2016-01-24 00:55:57,787 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-26 
+Closing websockets for kernel 40ebbaf5-e00b-48d1-9bc8-2d19a7ee9777
+
+2016-01-24 00:55:57,791 - [INFO] - from application in play-akka.actor.default-dispatcher-40 
+View notebook 'graphx/GraphX.snb', presentation: 'None'
+
+2016-01-24 00:55:58,909 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-19 
+UN-registering web-socket (notebook.server.WebSockWrapperImpl@49dc2ebb) in service notebook.server.CalcWebSocketService$CalcActor@471bc9f0 (current count is 1)
+
+2016-01-24 00:56:00,830 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-19 
+Termination of op calculator
+
+2016-01-24 00:56:00,830 - [ERROR] - from application in NotebookServer-akka.actor.default-dispatcher-19 
+Remote calculator (Actor[akka.tcp://Remote@127.0.0.1:51692/remote/akka.tcp/NotebookServer@127.0.0.1:51403/user/$q/$a#718031870]) has been terminated !!!!!
+
+2016-01-24 00:57:22,649 - [INFO] - from application in play-akka.actor.default-dispatcher-48 
+Closing kernel 40ebbaf5-e00b-48d1-9bc8-2d19a7ee9777
+
+2016-01-24 00:57:27,058 - [DEBUG] - from application in play-akka.actor.default-dispatcher-42 
+DASH → anomalyDetection
+
+2016-01-24 00:57:28,373 - [INFO] - from application in play-akka.actor.default-dispatcher-35 
+View notebook 'anomalyDetection/AnomalyDetection.snb', presentation: 'None'
+
+2016-01-24 00:57:28,702 - [DEBUG] - from application in play-akka.actor.default-dispatcher-42 
+content: anomalyDetection/AnomalyDetection.snb
+
+2016-01-24 00:57:28,702 - [DEBUG] - from application in play-akka.actor.default-dispatcher-42 
+getNotebook: name is 'anomalyDetection/AnomalyDetection', path is 'anomalyDetection/AnomalyDetection.snb' and format is 'json'
+
+2016-01-24 00:57:28,702 - [INFO] - from application in play-akka.actor.default-dispatcher-42 
+getNotebook at path anomalyDetection/AnomalyDetection.snb
+
+2016-01-24 00:57:28,702 - [INFO] - from application in play-akka.actor.default-dispatcher-42 
+Loading notebook at path anomalyDetection/AnomalyDetection.snb
+
+2016-01-24 00:57:30,351 - [INFO] - from application in play-akka.actor.default-dispatcher-35 
+Starting kernel/session because nothing for None and Some(anomalyDetection/AnomalyDetection.snb)
+
+2016-01-24 00:57:30,351 - [INFO] - from application in play-akka.actor.default-dispatcher-35 
+Loading notebook at path anomalyDetection/AnomalyDetection.snb
+
+2016-01-24 00:57:30,371 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-20 
+Spawning [/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/bin/java, -Xmx1908932608, -XX:MaxPermSize=1073741824, -server, notebook.kernel.pfork.ChildProcessMain, notebook.kernel.remote.RemoteActorProcess, 51716, info, bb33ebd9-463c-4c65-bc43-f329e7218c0a, anomalyDetection/AnomalyDetection.snb, kernel, ]
+
+2016-01-24 00:57:30,371 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-20 
+In working directory .
+
+2016-01-24 00:57:30,618 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-24 
+Registering first web-socket (notebook.server.WebSockWrapperImpl@24fd732d) in service notebook.server.CalcWebSocketService$CalcActor@2a3a99c2
+
+2016-01-24 00:57:30,619 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-24 
+Spawning calculator in service notebook.server.CalcWebSocketService$CalcActor@2a3a99c2
+
+2016-01-24 00:57:30,622 - [INFO] - from application in play-akka.actor.default-dispatcher-42 
+View notebook 'anomalyDetection/AnomalyDetection.snb', presentation: 'None'
+
+2016-01-24 00:57:33,821 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-16 
+Termination of op calculator
+
+2016-01-24 00:57:33,821 - [ERROR] - from application in NotebookServer-akka.actor.default-dispatcher-16 
+Remote calculator (Actor[akka.tcp://Remote@127.0.0.1:51702/remote/akka.tcp/NotebookServer@127.0.0.1:51403/user/$u/$a#-1504538849]) has been terminated !!!!!
+
+2016-01-24 00:59:15,815 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-16 
+Closing websockets for kernel bb33ebd9-463c-4c65-bc43-f329e7218c0a
+
+2016-01-24 00:59:15,817 - [INFO] - from application in NotebookServer-akka.actor.default-dispatcher-16 
+UN-registering web-socket (notebook.server.WebSockWrapperImpl@24fd732d) in service notebook.server.CalcWebSocketService$CalcActor@2a3a99c2 (current count is 1)
+
+2016-01-24 00:59:17,217 - [INFO] - from application in play-akka.actor.default-dispatcher-55 
+Closing kernel bb33ebd9-463c-4c65-bc43-f329e7218c0a
+
+2016-01-24 00:59:28,827 - [DEBUG] - from application in NotebookServer-akka.actor.default-dispatcher-20 
+Termination of op calculator
+
+2016-01-24 00:59:28,828 - [ERROR] - from application in NotebookServer-akka.actor.default-dispatcher-20 
+Remote calculator (Actor[akka.tcp://Remote@127.0.0.1:51719/remote/akka.tcp/NotebookServer@127.0.0.1:51403/user/$y/$a#-693969097]) has been terminated !!!!!
+

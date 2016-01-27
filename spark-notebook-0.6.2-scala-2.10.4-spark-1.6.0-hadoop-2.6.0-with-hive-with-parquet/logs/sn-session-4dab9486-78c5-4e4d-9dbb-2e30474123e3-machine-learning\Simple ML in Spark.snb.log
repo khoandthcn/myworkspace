@@ -1,0 +1,27 @@
+2016-01-24 00:55:34,727  INFO [main] (notebook.kernel.pfork.BetterFork$) - Remote process starting
+2016-01-24 00:55:35,194  INFO [Remote-akka.actor.default-dispatcher-4] (akka.event.slf4j.Slf4jLogger) - Slf4jLogger started
+2016-01-24 00:55:35,256  INFO [Remote-akka.actor.default-dispatcher-4] (Remoting) - Starting remoting
+2016-01-24 00:55:35,408  INFO [Remote-akka.actor.default-dispatcher-3] (Remoting) - Remoting started; listening on addresses :[akka.tcp://Remote@127.0.0.1:51692]
+2016-01-24 00:55:35,409  INFO [Remote-akka.actor.default-dispatcher-3] (Remoting) - Remoting now listens on addresses: [akka.tcp://Remote@127.0.0.1:51692]
+2016-01-24 00:55:35,671  INFO [Remote-akka.actor.default-dispatcher-4] (notebook.client.ReplCalculator) - ReplCalculator preStart
+2016-01-24 00:55:37,722  INFO [Remote-akka.actor.default-dispatcher-4] (notebook.client.ReplCalculator) -  INIT SCRIPT: dummy
+2016-01-24 00:55:38,050  WARN [Remote-akka.actor.default-dispatcher-3] (org.apache.spark.repl.SparkILoop) - ADD_JARS environment variable is deprecated, use --jar spark submit argument instead
+2016-01-24 00:55:38,447  WARN [Remote-akka.actor.default-dispatcher-3] (org.apache.hadoop.util.NativeCodeLoader) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-01-24 00:55:38,676  INFO [Remote-akka.actor.default-dispatcher-3] (org.apache.spark.SecurityManager) - Changing view acls to: khoand
+2016-01-24 00:55:38,677  INFO [Remote-akka.actor.default-dispatcher-3] (org.apache.spark.SecurityManager) - Changing modify acls to: khoand
+2016-01-24 00:55:38,679  INFO [Remote-akka.actor.default-dispatcher-3] (org.apache.spark.SecurityManager) - SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(khoand); users with modify permissions: Set(khoand)
+2016-01-24 00:55:39,107  INFO [Remote-akka.actor.default-dispatcher-3] (org.apache.spark.HttpServer) - Starting HTTP Server
+2016-01-24 00:55:39,202  INFO [Remote-akka.actor.default-dispatcher-3] (org.spark-project.jetty.server.Server) - jetty-8.y.z-SNAPSHOT
+2016-01-24 00:55:39,225  INFO [Remote-akka.actor.default-dispatcher-3] (org.spark-project.jetty.server.AbstractConnector) - Started SocketConnector@0.0.0.0:51695
+2016-01-24 00:55:39,228  INFO [Remote-akka.actor.default-dispatcher-3] (org.apache.spark.util.Utils) - Successfully started service 'HTTP class server' on port 51695.
+2016-01-24 00:55:43,593  INFO [Remote-akka.actor.default-dispatcher-4] (notebook.client.ReplCalculator) - Init script processed successfully
+2016-01-24 00:55:43,593  INFO [Remote-akka.actor.default-dispatcher-4] (notebook.client.ReplCalculator) -  INIT SCRIPT: class server
+2016-01-24 00:55:44,173  INFO [Remote-akka.actor.default-dispatcher-4] (notebook.client.ReplCalculator) - Init script processed successfully
+2016-01-24 00:55:44,173  INFO [Remote-akka.actor.default-dispatcher-4] (notebook.client.ReplCalculator) -  INIT SCRIPT: deps
+2016-01-24 00:55:44,840  INFO [Remote-akka.actor.default-dispatcher-4] (notebook.client.ReplCalculator) - Init script processed successfully
+2016-01-24 00:55:44,840  INFO [Remote-akka.actor.default-dispatcher-4] (notebook.client.ReplCalculator) -  INIT SCRIPT: imports
+2016-01-24 00:55:44,842  INFO [Remote-akka.actor.default-dispatcher-4] (notebook.client.ReplCalculator) -  INIT SCRIPT: custom conf
+2016-01-24 00:55:46,546  INFO [Remote-akka.actor.default-dispatcher-4] (notebook.client.ReplCalculator) - Init script processed successfully
+2016-01-24 00:55:46,547  INFO [Remote-akka.actor.default-dispatcher-4] (notebook.client.ReplCalculator) -  INIT SCRIPT: jar:file:/Users/khoand/Downloads/spark-notebook-0.6.2-scala-2.10.4-spark-1.6.0-hadoop-2.6.0-with-hive-with-parquet/lib/nooostab.spark-notebook-0.6.2-scala-2.10.4-spark-1.6.0-hadoop-2.6.0-with-hive-with-parquet.jar!/scripts/init.sc
+2016-01-24 00:55:48,469  INFO [Thread-1] (org.apache.spark.util.ShutdownHookManager) - Shutdown hook called
+2016-01-24 00:55:48,470  INFO [Thread-1] (org.apache.spark.util.ShutdownHookManager) - Deleting directory /private/var/folders/gb/n7w25zs52j370l4sxhsm05c00000gn/T/spark-f854d8d8-32ba-46eb-a36b-dd400b2dcee4

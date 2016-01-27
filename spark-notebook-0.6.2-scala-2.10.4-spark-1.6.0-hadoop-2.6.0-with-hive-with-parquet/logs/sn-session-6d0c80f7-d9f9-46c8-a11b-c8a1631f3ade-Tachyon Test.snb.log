@@ -1,0 +1,109 @@
+2016-01-24 00:53:36,208  INFO [main] (notebook.kernel.pfork.BetterFork$) - Remote process starting
+2016-01-24 00:53:36,707  INFO [Remote-akka.actor.default-dispatcher-3] (akka.event.slf4j.Slf4jLogger) - Slf4jLogger started
+2016-01-24 00:53:36,757  INFO [Remote-akka.actor.default-dispatcher-3] (Remoting) - Starting remoting
+2016-01-24 00:53:36,888  INFO [Remote-akka.actor.default-dispatcher-2] (Remoting) - Remoting started; listening on addresses :[akka.tcp://Remote@127.0.0.1:51672]
+2016-01-24 00:53:36,890  INFO [Remote-akka.actor.default-dispatcher-2] (Remoting) - Remoting now listens on addresses: [akka.tcp://Remote@127.0.0.1:51672]
+2016-01-24 00:53:37,134  INFO [Remote-akka.actor.default-dispatcher-2] (notebook.client.ReplCalculator) - ReplCalculator preStart
+2016-01-24 00:53:40,297  INFO [Remote-akka.actor.default-dispatcher-3] (notebook.client.ReplCalculator) -  INIT SCRIPT: dummy
+2016-01-24 00:53:40,734  WARN [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.repl.SparkILoop) - ADD_JARS environment variable is deprecated, use --jar spark submit argument instead
+2016-01-24 00:53:41,150  WARN [Remote-akka.actor.default-dispatcher-5] (org.apache.hadoop.util.NativeCodeLoader) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-01-24 00:53:41,253  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.SecurityManager) - Changing view acls to: khoand
+2016-01-24 00:53:41,254  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.SecurityManager) - Changing modify acls to: khoand
+2016-01-24 00:53:41,255  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.SecurityManager) - SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(khoand); users with modify permissions: Set(khoand)
+2016-01-24 00:53:41,793  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.HttpServer) - Starting HTTP Server
+2016-01-24 00:53:41,891  INFO [Remote-akka.actor.default-dispatcher-5] (org.spark-project.jetty.server.Server) - jetty-8.y.z-SNAPSHOT
+2016-01-24 00:53:41,911  INFO [Remote-akka.actor.default-dispatcher-5] (org.spark-project.jetty.server.AbstractConnector) - Started SocketConnector@0.0.0.0:51674
+2016-01-24 00:53:41,912  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.util.Utils) - Successfully started service 'HTTP class server' on port 51674.
+2016-01-24 00:53:45,769  INFO [Remote-akka.actor.default-dispatcher-3] (notebook.client.ReplCalculator) - Init script processed successfully
+2016-01-24 00:53:45,770  INFO [Remote-akka.actor.default-dispatcher-3] (notebook.client.ReplCalculator) -  INIT SCRIPT: class server
+2016-01-24 00:53:46,084  INFO [Remote-akka.actor.default-dispatcher-3] (notebook.client.ReplCalculator) - Init script processed successfully
+2016-01-24 00:53:46,084  INFO [Remote-akka.actor.default-dispatcher-3] (notebook.client.ReplCalculator) -  INIT SCRIPT: deps
+2016-01-24 00:53:46,542  INFO [Remote-akka.actor.default-dispatcher-3] (notebook.client.ReplCalculator) - Init script processed successfully
+2016-01-24 00:53:46,544  INFO [Remote-akka.actor.default-dispatcher-3] (notebook.client.ReplCalculator) -  INIT SCRIPT: imports
+2016-01-24 00:53:46,547  INFO [Remote-akka.actor.default-dispatcher-3] (notebook.client.ReplCalculator) -  INIT SCRIPT: custom conf
+2016-01-24 00:53:47,260  INFO [Remote-akka.actor.default-dispatcher-3] (notebook.client.ReplCalculator) - Init script processed successfully
+2016-01-24 00:53:47,261  INFO [Remote-akka.actor.default-dispatcher-3] (notebook.client.ReplCalculator) -  INIT SCRIPT: jar:file:/Users/khoand/Downloads/spark-notebook-0.6.2-scala-2.10.4-spark-1.6.0-hadoop-2.6.0-with-hive-with-parquet/lib/nooostab.spark-notebook-0.6.2-scala-2.10.4-spark-1.6.0-hadoop-2.6.0-with-hive-with-parquet.jar!/scripts/init.sc
+2016-01-24 00:53:49,391  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.SparkContext) - Running Spark version 1.6.0-SNAPSHOT
+2016-01-24 00:53:49,596  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.SecurityManager) - Changing view acls to: khoand
+2016-01-24 00:53:49,597  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.SecurityManager) - Changing modify acls to: khoand
+2016-01-24 00:53:49,612  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.SecurityManager) - SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(khoand); users with modify permissions: Set(khoand)
+2016-01-24 00:53:50,000  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.util.Utils) - Successfully started service 'sparkDriver' on port 51675.
+2016-01-24 00:53:50,039  INFO [sparkDriverActorSystem-akka.actor.default-dispatcher-2] (akka.event.slf4j.Slf4jLogger) - Slf4jLogger started
+2016-01-24 00:53:50,044  INFO [sparkDriverActorSystem-akka.actor.default-dispatcher-5] (Remoting) - Starting remoting
+2016-01-24 00:53:50,054  INFO [sparkDriverActorSystem-akka.actor.default-dispatcher-2] (Remoting) - Remoting started; listening on addresses :[akka.tcp://sparkDriverActorSystem@192.168.3.102:51676]
+2016-01-24 00:53:50,055  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.util.Utils) - Successfully started service 'sparkDriverActorSystem' on port 51676.
+2016-01-24 00:53:50,077  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.SparkEnv) - Registering MapOutputTracker
+2016-01-24 00:53:50,108  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.SparkEnv) - Registering BlockManagerMaster
+2016-01-24 00:53:50,127  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.storage.DiskBlockManager) - Created local directory at /private/var/folders/gb/n7w25zs52j370l4sxhsm05c00000gn/T/blockmgr-04ac3776-0aab-4240-a9f0-40c2815784b6
+2016-01-24 00:53:50,135  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.storage.MemoryStore) - MemoryStore started with capacity 990.0 MB
+2016-01-24 00:53:50,219  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.SparkEnv) - Registering OutputCommitCoordinator
+2016-01-24 00:53:50,393  INFO [Remote-akka.actor.default-dispatcher-5] (org.spark-project.jetty.server.Server) - jetty-8.y.z-SNAPSHOT
+2016-01-24 00:53:50,407  INFO [Remote-akka.actor.default-dispatcher-5] (org.spark-project.jetty.server.AbstractConnector) - Started SelectChannelConnector@0.0.0.0:4040
+2016-01-24 00:53:50,408  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.util.Utils) - Successfully started service 'SparkUI' on port 4040.
+2016-01-24 00:53:50,411  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.ui.SparkUI) - Started SparkUI at http://192.168.3.102:4040
+2016-01-24 00:53:50,444  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.HttpFileServer) - HTTP File server directory is /private/var/folders/gb/n7w25zs52j370l4sxhsm05c00000gn/T/spark-d7365bae-85d5-4deb-ad48-87a1c3313b77/httpd-87ffc0cb-5a5b-4aca-9525-d8f977f19dd9
+2016-01-24 00:53:50,444  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.HttpServer) - Starting HTTP Server
+2016-01-24 00:53:50,448  INFO [Remote-akka.actor.default-dispatcher-5] (org.spark-project.jetty.server.Server) - jetty-8.y.z-SNAPSHOT
+2016-01-24 00:53:50,451  INFO [Remote-akka.actor.default-dispatcher-5] (org.spark-project.jetty.server.AbstractConnector) - Started SocketConnector@0.0.0.0:51677
+2016-01-24 00:53:50,454  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.util.Utils) - Successfully started service 'HTTP file server' on port 51677.
+2016-01-24 00:53:50,457 ERROR [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.SparkContext) - Error adding jar (java.lang.IllegalArgumentException: /Users/khoand/Downloads/spark-notebook-0.6.2-scala-2.10.4-spark-1.6.0-hadoop-2.6.0-with-hive-with-parquet cannot be a directory.), was the --addJars option used?
+2016-01-24 00:53:50,502  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.SparkContext) - Added JAR file:/Users/khoand/Downloads/spark-notebook-0.6.2-scala-2.10.4-spark-1.6.0-hadoop-2.6.0-with-hive-with-parquet/lib/common.common-0.6.2-scala-2.10.4-spark-1.6.0-hadoop-2.6.0-with-hive-with-parquet.jar at http://192.168.3.102:51677/jars/common.common-0.6.2-scala-2.10.4-spark-1.6.0-hadoop-2.6.0-with-hive-with-parquet.jar with timestamp 1453571630499
+2016-01-24 00:53:50,600  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.executor.Executor) - Starting executor ID driver on host localhost
+2016-01-24 00:53:50,614  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.executor.Executor) - Using REPL class URI: http://192.168.3.102:51674
+2016-01-24 00:53:50,646  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.util.Utils) - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 51678.
+2016-01-24 00:53:50,647  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.network.netty.NettyBlockTransferService) - Server created on 51678
+2016-01-24 00:53:50,651  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.storage.BlockManagerMaster) - Trying to register BlockManager
+2016-01-24 00:53:50,656  INFO [dispatcher-event-loop-2] (org.apache.spark.storage.BlockManagerMasterEndpoint) - Registering block manager localhost:51678 with 990.0 MB RAM, BlockManagerId(driver, localhost, 51678)
+2016-01-24 00:53:50,660  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.storage.BlockManagerMaster) - Registered BlockManager
+2016-01-24 00:53:51,051  INFO [Remote-akka.actor.default-dispatcher-3] (notebook.client.ReplCalculator) - Init script processed successfully
+2016-01-24 00:53:51,051  INFO [Remote-akka.actor.default-dispatcher-3] (notebook.client.ReplCalculator) -  INIT SCRIPT: end
+2016-01-24 00:53:52,085  INFO [Remote-akka.actor.default-dispatcher-3] (notebook.client.ReplCalculator) - Init script processed successfully
+2016-01-24 00:54:43,313  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.storage.MemoryStore) - Block broadcast_0 stored as values in memory (estimated size 127.6 KB, free 127.6 KB)
+2016-01-24 00:54:43,367  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.storage.MemoryStore) - Block broadcast_0_piece0 stored as bytes in memory (estimated size 14.0 KB, free 141.6 KB)
+2016-01-24 00:54:43,369  INFO [dispatcher-event-loop-2] (org.apache.spark.storage.BlockManagerInfo) - Added broadcast_0_piece0 in memory on localhost:51678 (size: 14.0 KB, free: 990.0 MB)
+2016-01-24 00:54:43,375  INFO [Remote-akka.actor.default-dispatcher-5] (org.apache.spark.SparkContext) - Created broadcast 0 from textFile at <console>:57
+2016-01-24 00:54:49,112  WARN [Remote-akka.actor.default-dispatcher-3] () - Your hostname, Khoas-MacBook-Pro.local resolves to a loopback/non-reachable address: 127.0.0.1, but we couldn't find any external IP address!
+2016-01-24 00:54:54,930  INFO [Remote-akka.actor.default-dispatcher-3] (org.apache.spark.storage.MemoryStore) - Block broadcast_1 stored as values in memory (estimated size 62.0 KB, free 203.6 KB)
+2016-01-24 00:54:54,998  INFO [Remote-akka.actor.default-dispatcher-3] (org.apache.spark.storage.MemoryStore) - Block broadcast_1_piece0 stored as bytes in memory (estimated size 19.3 KB, free 222.9 KB)
+2016-01-24 00:54:54,999  INFO [dispatcher-event-loop-2] (org.apache.spark.storage.BlockManagerInfo) - Added broadcast_1_piece0 in memory on localhost:51678 (size: 19.3 KB, free: 990.0 MB)
+2016-01-24 00:54:55,002  INFO [Remote-akka.actor.default-dispatcher-3] (org.apache.spark.SparkContext) - Created broadcast 1 from textFile at <console>:58
+2016-01-24 00:55:27,042  INFO [Thread-1] (org.apache.spark.SparkContext) - Invoking stop() from shutdown hook
+2016-01-24 00:55:27,071  INFO [Thread-1] (org.spark-project.jetty.server.handler.ContextHandler) - stopped o.s.j.s.ServletContextHandler{/metrics/json,null}
+2016-01-24 00:55:27,072  INFO [Thread-1] (org.spark-project.jetty.server.handler.ContextHandler) - stopped o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
+2016-01-24 00:55:27,072  INFO [Thread-1] (org.spark-project.jetty.server.handler.ContextHandler) - stopped o.s.j.s.ServletContextHandler{/api,null}
+2016-01-24 00:55:27,073  INFO [Thread-1] (org.spark-project.jetty.server.handler.ContextHandler) - stopped o.s.j.s.ServletContextHandler{/,null}
+2016-01-24 00:55:27,074  INFO [Thread-1] (org.spark-project.jetty.server.handler.ContextHandler) - stopped o.s.j.s.ServletContextHandler{/static,null}
+2016-01-24 00:55:27,075  INFO [Thread-1] (org.spark-project.jetty.server.handler.ContextHandler) - stopped o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
+2016-01-24 00:55:27,075  INFO [Thread-1] (org.spark-project.jetty.server.handler.ContextHandler) - stopped o.s.j.s.ServletContextHandler{/executors/threadDump,null}
+2016-01-24 00:55:27,077  INFO [Thread-1] (org.spark-project.jetty.server.handler.ContextHandler) - stopped o.s.j.s.ServletContextHandler{/executors/json,null}
+2016-01-24 00:55:27,078  INFO [Thread-1] (org.spark-project.jetty.server.handler.ContextHandler) - stopped o.s.j.s.ServletContextHandler{/executors,null}
+2016-01-24 00:55:27,079  INFO [Thread-1] (org.spark-project.jetty.server.handler.ContextHandler) - stopped o.s.j.s.ServletContextHandler{/environment/json,null}
+2016-01-24 00:55:27,079  INFO [Thread-1] (org.spark-project.jetty.server.handler.ContextHandler) - stopped o.s.j.s.ServletContextHandler{/environment,null}
+2016-01-24 00:55:27,081  INFO [Thread-1] (org.spark-project.jetty.server.handler.ContextHandler) - stopped o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
+2016-01-24 00:55:27,083  INFO [Thread-1] (org.spark-project.jetty.server.handler.ContextHandler) - stopped o.s.j.s.ServletContextHandler{/storage/rdd,null}
+2016-01-24 00:55:27,085  INFO [Thread-1] (org.spark-project.jetty.server.handler.ContextHandler) - stopped o.s.j.s.ServletContextHandler{/storage/json,null}
+2016-01-24 00:55:27,087  INFO [Thread-1] (org.spark-project.jetty.server.handler.ContextHandler) - stopped o.s.j.s.ServletContextHandler{/storage,null}
+2016-01-24 00:55:27,090  INFO [Thread-1] (org.spark-project.jetty.server.handler.ContextHandler) - stopped o.s.j.s.ServletContextHandler{/stages/pool/json,null}
+2016-01-24 00:55:27,093  INFO [Thread-1] (org.spark-project.jetty.server.handler.ContextHandler) - stopped o.s.j.s.ServletContextHandler{/stages/pool,null}
+2016-01-24 00:55:27,096  INFO [Thread-1] (org.spark-project.jetty.server.handler.ContextHandler) - stopped o.s.j.s.ServletContextHandler{/stages/stage/json,null}
+2016-01-24 00:55:27,097  INFO [Thread-1] (org.spark-project.jetty.server.handler.ContextHandler) - stopped o.s.j.s.ServletContextHandler{/stages/stage,null}
+2016-01-24 00:55:27,100  INFO [Thread-1] (org.spark-project.jetty.server.handler.ContextHandler) - stopped o.s.j.s.ServletContextHandler{/stages/json,null}
+2016-01-24 00:55:27,100  INFO [Thread-1] (org.spark-project.jetty.server.handler.ContextHandler) - stopped o.s.j.s.ServletContextHandler{/stages,null}
+2016-01-24 00:55:27,100  INFO [Thread-1] (org.spark-project.jetty.server.handler.ContextHandler) - stopped o.s.j.s.ServletContextHandler{/jobs/job/json,null}
+2016-01-24 00:55:27,100  INFO [Thread-1] (org.spark-project.jetty.server.handler.ContextHandler) - stopped o.s.j.s.ServletContextHandler{/jobs/job,null}
+2016-01-24 00:55:27,100  INFO [Thread-1] (org.spark-project.jetty.server.handler.ContextHandler) - stopped o.s.j.s.ServletContextHandler{/jobs/json,null}
+2016-01-24 00:55:27,100  INFO [Thread-1] (org.spark-project.jetty.server.handler.ContextHandler) - stopped o.s.j.s.ServletContextHandler{/jobs,null}
+2016-01-24 00:55:27,153  INFO [Thread-1] (org.apache.spark.ui.SparkUI) - Stopped Spark web UI at http://192.168.3.102:4040
+2016-01-24 00:55:27,173  INFO [dispatcher-event-loop-3] (org.apache.spark.MapOutputTrackerMasterEndpoint) - MapOutputTrackerMasterEndpoint stopped!
+2016-01-24 00:55:27,181  INFO [Thread-1] (org.apache.spark.storage.MemoryStore) - MemoryStore cleared
+2016-01-24 00:55:27,182  INFO [Thread-1] (org.apache.spark.storage.BlockManager) - BlockManager stopped
+2016-01-24 00:55:27,184  INFO [Thread-1] (org.apache.spark.storage.BlockManagerMaster) - BlockManagerMaster stopped
+2016-01-24 00:55:27,189  INFO [dispatcher-event-loop-0] (org.apache.spark.scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint) - OutputCommitCoordinator stopped!
+2016-01-24 00:55:27,194  INFO [Thread-1] (org.apache.spark.SparkContext) - Successfully stopped SparkContext
+2016-01-24 00:55:27,197  INFO [Thread-1] (org.apache.spark.util.ShutdownHookManager) - Shutdown hook called
+2016-01-24 00:55:27,198  INFO [Thread-1] (org.apache.spark.util.ShutdownHookManager) - Deleting directory /private/var/folders/gb/n7w25zs52j370l4sxhsm05c00000gn/T/spark-d7365bae-85d5-4deb-ad48-87a1c3313b77
+2016-01-24 00:55:27,199  INFO [Thread-1] (org.apache.spark.util.ShutdownHookManager) - Deleting directory /private/var/folders/gb/n7w25zs52j370l4sxhsm05c00000gn/T/spark-127465e1-219d-4991-9c9a-7440245d9bc8
+2016-01-24 00:55:27,200  INFO [sparkDriverActorSystem-akka.actor.default-dispatcher-15] (akka.remote.RemoteActorRefProvider$RemotingTerminator) - Shutting down remote daemon.
+2016-01-24 00:55:27,201  INFO [sparkDriverActorSystem-akka.actor.default-dispatcher-15] (akka.remote.RemoteActorRefProvider$RemotingTerminator) - Remote daemon shut down; proceeding with flushing remote transports.
+2016-01-24 00:55:27,251  INFO [sparkDriverActorSystem-akka.actor.default-dispatcher-15] (akka.remote.RemoteActorRefProvider$RemotingTerminator) - Remoting shut down.
+2016-01-24 00:55:27,287  INFO [Thread-1] (org.apache.spark.util.ShutdownHookManager) - Deleting directory /private/var/folders/gb/n7w25zs52j370l4sxhsm05c00000gn/T/spark-d7365bae-85d5-4deb-ad48-87a1c3313b77/httpd-87ffc0cb-5a5b-4aca-9525-d8f977f19dd9
